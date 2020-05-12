@@ -6,7 +6,7 @@
 [![LuaRocks](https://img.shields.io/luarocks/v/alerque/commonmark)](https://luarocks.org/modules/alerque/commonmark)
 [![Join the chat at https://gitter.im/commonmark-lua/community](https://badges.gitter.im/commonmark-lua/community.svg)](https://gitter.im/commonmark-lua/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A pure Lua parsing expression grammar ([LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/)) for [CommonMark](https://commonmark.org/).
+A Lua parsing expression grammar for [CommonMark](https://commonmark.org/) using ([LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/)).
 
 ## Related projects
 

@@ -6,7 +6,7 @@ source = {
 }
 
 description = {
-   summary = "Pure Lua (LPEG) parser for CommonMark",
+   summary = "Lua parser for CommonMark using LPEG grammar",
    detailed = [[
      A pure Lua parsing expression grammar (LPeg) for CommonMark.
    ]],
