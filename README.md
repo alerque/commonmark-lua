@@ -1,4 +1,10 @@
-# commonmark-lua
+# CommonMark Lua
+
+[![Luacheck](https://github.com/alerque/commonmark-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/commonmark-lua/actions)
+[![Busted](https://github.com/alerque/commonmark-lua/workflows/Busted/badge.svg)](https://github.com/alerque/commonmark-lua/actions)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alerque/commonmark-lua)](https://github.com/alerque/commonmark-lua/releases)
+[![LuaRocks](https://img.shields.io/luarocks/v/alerque/commonmark)](https://luarocks.org/modules/alerque/commonmark)
+[![Join the chat at https://gitter.im/commonmark-lua/community](https://badges.gitter.im/commonmark-lua/community.svg)](https://gitter.im/commonmark-lua/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A pure Lua parsing expression grammar ([LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/)) for [CommonMark](https://commonmark.org/).
 
