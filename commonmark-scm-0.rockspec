@@ -4,6 +4,7 @@ version = "scm-0"
 
 source = {
    url = "git://github.com/alerque/commonmark-lua.git",
+   tag = "master"
 }
 
 description = {
