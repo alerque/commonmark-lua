@@ -1,0 +1,32 @@
+rockspec_format = "3.0"
+package = "commonmark"
+version = "@SEMVER@-@ROCKREV@"
+
+source = {
+   url = "git://github.com/alerque/commonmark-lua.git",
+   tag = "@TAG@"
+}
+
+description = {
+   summary = "Lua parser for CommonMark using LPEG grammar",
+   detailed = [[
+     A Lua parsing expression grammar for CommonMark using (LPeg).
+   ]],
+   license = "MIT",
+   homepage = "https://github.com/alerque/commonmark-lua",
+   issues_url = "https://github.com/alerque/commonmark-lua/issues",
+   maintainer = "Caleb Maclennan <caleb@alerque.com>",
+   labels = { "markdown", "pandoc", "lpeg" }
+}
+
+dependencies = {
+   "lua",
+   "luaepnf"
+}
+
+build = {
+   type = "builtin",
+   modules = {
+      ["commonmark.init"] = "commonmark/init.lua"
+   }
+}
