@@ -17,6 +17,10 @@ all: $(SCM_ROCK) $(SCM_SRC)
 .PHONY: dist
 dist: $(REL_ROCK) $(REL_SRC)
 
+.PHONY: install
+install:
+	luarocks $(LUAROCKS_ARGS) make $(SCM_ROCK)
+
 define rockpec_template =
 	sed -e "s/@SEMVER@/$(SEMVER)/g" \
 		-e "s/@ROCKREV@/$(ROCKREV)/g" \
