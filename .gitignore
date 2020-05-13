@@ -41,3 +41,6 @@ luac.out
 
 # Vendor
 lua_modules
+
+# Editor cruft
+tags
