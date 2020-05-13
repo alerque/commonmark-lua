@@ -21,7 +21,8 @@ description = {
 
 dependencies = {
    "lua",
-   "luaepnf"
+   "luaepnf",
+   "penlight"
 }
 
 build = {
